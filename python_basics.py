@@ -14,5 +14,5 @@ def get_weekday(current_weekday, days_ahead):
    '''
    return (current_weekday + days_ahead - 1) % 7 + 1
 
-print(get_weekday(7, 0))
+print(get_weekday(6, 0))
 
